@@ -1,0 +1,36 @@
+import React from "react";
+
+export default function Footer() {
+  return (
+    <footer className="flex px-32 py-24  bg-black" id="contacts">
+      <div className="  mt-0 text-white font-montserrat flex w-full pt-8 border-b-4 pb-8">
+        <div className="  mt-0 text-white font-montserrat w-2/3 ">
+          <p className="text-3xl font-lato">
+            Hey! thank you for taking your precious time to go through my
+            portfolio, If you are impressed by my skills and want me to be part
+            of your group or handle your next big project, don't hesitate to
+            reach out to me.😊{" "}
+          </p>
+          <h1 className="text-4xl  text-underline py-8">Email Me😇</h1>
+          <div className="flex flex-col">
+            <a className="" href="mailto:mphoshabalala3401@gmail.com">
+              mphoshabalala3401@gmail.com
+            </a>
+            <p className="p-2">OR</p>
+            <a href="mailto:mphoshabalala3613@gmail.com">
+              mphoshabalala3613@gmail.com
+            </a>
+          </div>
+        </div>
+        <div className="w-1/3 pl-16">
+          <p>
+            See my freelancing profile here:{" "}
+            <span>
+              <a href="#1">Latium</a>
+            </span>
+          </p>
+        </div>
+      </div>
+    </footer>
+  );
+}
