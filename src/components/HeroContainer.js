@@ -6,13 +6,13 @@ import Stack from "./Stack";
 
 export default function HeroContainer() {
   return (
-    <div className="text-blue-300 w-full h-full flex flex-col justify-center overflow-y-hidden px-60">
-      <div className="flex ">
-        <div className="w-1/2 flex flex-col items-start justify-center">
-          <h1 className="text-6xl font-bold font-montserrat">
+    <div className="text-blue-300 w-full h-full flex flex-col items-center md:items-start justify-center overflow-y-hidden pt-28 md:pt-0 px-12 md:px-60">
+      <div className="flex flex-col-reverse md:flex-row">
+        <div className=" w-full md:w-1/2 flex flex-col items-center md:items-start justify-center text-center md:text-start">
+          <h1 className=" text-2xl font-semibold md:text-6xl md:font-bold font-montserrat">
             Junior Full-stack developer.☺️
           </h1>
-          <p className="py-8 font-semibold text-2xl">
+          <p className=" p-4 md:py-8 font-semibold md:text-2xl">
             Hi, I'm Mpho Shabalala. A passionate Junior Full-stack Developer
             based in Johannesburg, South Africa. 📍
           </p>
@@ -21,7 +21,7 @@ export default function HeroContainer() {
             <img className="ml-4" src={github} alt="" />
           </div>
         </div>
-        <div className="w-1/2 flex flex-col items-center justify-center ml-24">
+        <div className="mb-8  w-full md:mb-0 md:w-1/2 flex flex-col items-center justify-center md:ml-24">
           <img src={me} alt="" />
         </div>
       </div>

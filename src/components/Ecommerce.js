@@ -6,16 +6,14 @@ import ecommerce from "../images/eCommerce.png";
 export default function Ecommerce() {
   return (
     <li
-      className="flex-col h-max md:h-projectHeight bg-white w-full flex p-4 m-0 mt-40 rounded md:flex-row"
-      id="next-levol-project"
+      className="flex-col-reverse h-full  bg-white w-full flex p-4 m-0 my-16 rounded md:flex-row"
+      id="ecommerce"
     >
-      <div className="text-greyBorder w-full md:w-1/2 pr-4 font-bold">
-        <h3 className="font-bold text-2xl text-darkGrey my-4 font-montserrat">
+      <div className="w-full md:w-1/2 pr-4 font-bold text-center items-center  md:text-start md:items-start">
+        <h3 className="font-bold md:text-2xl  my-4 font-montserrat">
           E-Commerce API (September 2023)
         </h3>
-        <h4 className="font-bold text-1xl text-darkGrey my-4">
-          Category - Back-end
-        </h4>{" "}
+        <h4 className="font-bold my-4">Category - Back-end</h4>
         <p>
           This e-commerce API is a demonstration of my backend skills. It
           follows a RESTful architecture and adheres to the MVC design pattern.
@@ -26,7 +24,7 @@ export default function Ecommerce() {
           For a comprehensive understanding of this API, please visit the README
           to access the documentation.
         </p>
-        <ul className="flex p-0">
+        <ul className="flex flex-wrap w-full items-center md:items-start p-0">
           <li className="shadow-secondary p-2 font-bold">NodeJS</li>
           <li className="shadow-secondary p-2 font-bold">ExpressJS</li>
           <li className="shadow-secondary p-2 font-bold">MongoDB</li>
@@ -45,12 +43,12 @@ export default function Ecommerce() {
         </ul>
       </div>
       <a
-        className="w-full md:w-1/2 h-projectHeight md:h-full overflow-hidden relative"
+        className="w-full md:w-1/2 h-projectHeight  overflow-hidden relative"
         href="https://github.com/mphoshabalala/e-commerce-store-API"
         target="blank"
       >
         <img
-          className=" hidden md:block relative transform transform-y-0
+          className="  md:block relative transform transform-y-0
                transition-transform duration-5000 w-full  hover:translate-y-[-82%] cursor-pointer"
           src={ecommerce}
           alt=""

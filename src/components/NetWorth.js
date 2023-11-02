@@ -6,16 +6,14 @@ import code from "../images/coding.png";
 export default function NetWorth() {
   return (
     <li
-      className="flex-col h-max md:h-projectHeight bg-white w-full flex p-4 m-0 mt-40 rounded md:flex-row"
-      id="next-levol-project"
+      className="flex-col-reverse h-full  bg-white w-full flex p-4 m-0 md:my-16 rounded md:flex-row"
+      id="networth"
     >
-      <div className="text-greyBorder w-full md:w-1/2 pr-4 font-bold">
-        <h3 className="font-bold text-2xl text-darkGrey my-4 font-montserrat">
+      <div className=" w-full md:w-1/2 pr-4 font-bold text-center items-center  md:text-start md:items-start">
+        <h3 className="font-bold text-2xl my-4 font-montserrat">
           NetWorth (August 2023)
         </h3>
-        <h4 className="font-bold text-1xl text-darkGrey my-4">
-          Category - Full-Stack
-        </h4>
+        <h4 className="font-bold my-4">Category - Full-Stack</h4>
         <p>
           NetWorth is a web application designed to assist users in managing and
           tracking the value of their assets over time. All calculations adhere
@@ -27,7 +25,7 @@ export default function NetWorth() {
           calculates the products' depreciation rates and appreciation,
           estimating their current values."
         </p>
-        <ul className="flex p-0">
+        <ul className="flex flex-wrap w-full items-center md:items-start p-0">
           <li className="shadow-secondary p-2 font-bold">Vanilla JS</li>
           <li className="shadow-secondary p-2 font-bold">HTML</li>
           <li className="shadow-secondary p-2 font-bold">Vanilla CSS</li>
@@ -48,12 +46,12 @@ export default function NetWorth() {
         </ul>
       </div>
       <a
-        className="w-full md:w-1/2 h-projectHeight md:h-full overflow-hidden relative"
-        href="https://symphonious-licorice-0dc952.netlify.app/"
+        className="w-full md:w-1/2 h-projectHeight overflow-hidden relative"
+        href="https://github.com/mphoshabalala/Networth-2.0"
         target="blank"
       >
         <img
-          className=" hidden md:block relative transform transform-y-0
+          className="  md:block relative transform transform-y-0
                transition-transform duration-5000 w-full  hover:translate-y-[-82%] cursor-pointer"
           src={networth}
           alt=""

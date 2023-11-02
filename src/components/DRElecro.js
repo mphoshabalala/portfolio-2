@@ -1,27 +1,26 @@
 import React from "react";
 import drElecro from "../images/drElecro.png";
 import code from "../images/coding.png";
-import liveDemo from "../images/redirect.png";
 
 export default function DRElecro() {
   return (
     <li
-      className="flex-col h-max md:h-projectHeight bg-white w-full flex p-4 m-0 mt-40 rounded md:flex-row"
-      id="next-levol-project"
+      className="flex-col h-full  bg-white w-full flex p-4 m-0 my-16 rounded md:flex-row"
+      id="dr-elecro"
     >
       <a
-        className="w-full md:w-1/2 h-projectHeight md:h-full overflow-hidden relative"
+        className="w-full md:w-1/2 h-projectHeight overflow-hidden relative"
         href="https://github.com/mphoshabalala/DR-ELECRO"
         target="blank"
       >
         <img
-          className=" hidden md:block relative transform transform-y-0
+          className=" md:block relative transform transform-y-0
                transition-transform duration-5000 w-full  hover:translate-y-[-82%] cursor-pointer"
           src={drElecro}
           alt=""
         />
       </a>
-      <div className="text-greyBorder w-full md:w-1/2 pl-4 font-bold">
+      <div className="md:text-start text-center w-full md:w-1/2 pl-4 font-bold">
         <h3 className="font-bold text-2xl text-darkGrey my-4 font-montserrat">
           DR Elecro (August 2023)
         </h3>
@@ -35,7 +34,7 @@ export default function DRElecro() {
           validates account creation. The website uses a MySQL database for data
           storage.
         </p>
-        <ul className="flex p-0">
+        <ul className="items-center md:justify-start flex flex-wrap p-0">
           <li className="shadow-secondary p-2 font-bold">NodeJS</li>
           <li className="shadow-secondary p-2 font-bold">ExpressJS</li>
           <li className="shadow-secondary p-2 font-bold">EJS Templating</li>

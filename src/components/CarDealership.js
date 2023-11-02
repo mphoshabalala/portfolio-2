@@ -6,16 +6,14 @@ import code from "../images/coding.png";
 export default function CarDealership() {
   return (
     <li
-      className="flex-col h-max md:h-projectHeight bg-white w-full flex p-4 m-0 my-16 rounded md:flex-row"
-      id="next-levol-project"
+      className="flex-col-reverse h-max md:h-min bg-white w-full flex p-4 m-0 md:my-16 rounded md:flex-row"
+      id="car-dealership"
     >
-      <div className="text-greyBorder w-full md:w-1/2 pr-4 font-bold">
-        <h3 className="font-bold text-2xl text-darkGrey my-4 font-montserrat">
+      <div className=" w-full md:w-1/2 pr-4 font-bold text-center items-center  md:text-start md:items-start">
+        <h3 className="font-bold md:text-2xl  my-4 font-montserrat">
           Car Dealership App - Best Dealers (October 2023)
         </h3>
-        <h4 className="font-bold text-1xl text-darkGrey my-4">
-          Category - Full-Stack
-        </h4>
+        <h4 className="font-bold my-4">Category - Full-Stack</h4>
         <p>
           Car Dealership is a full-stack Single Page Application (SPA) that
           serves the purpose of advertising cars. The application consists of
@@ -25,7 +23,7 @@ export default function CarDealership() {
           comprises a back-end API and a front-end user interface, which are
           integrated through Cross-Origin Resource Sharing (CORS).
         </p>
-        <ul className="flex p-0">
+        <ul className="flex flex-wrap w-full items-center md:items-start p-0">
           <li className="shadow-secondary p-2 font-bold">REACT</li>
           <li className="shadow-secondary p-2 font-bold">Tailwind CSS</li>
           <li className="shadow-secondary p-2 font-bold">NodeJs</li>
@@ -59,12 +57,12 @@ export default function CarDealership() {
         </p>
       </div>
       <a
-        className="w-full md:w-1/2 h-projectHeight md:h-full overflow-hidden relative"
+        className="w-full md:w-1/2 h-projectHeight overflow-hidden relative"
         href="https://symphonious-licorice-0dc952.netlify.app/"
         target="blank"
       >
         <img
-          className=" hidden md:block relative transform transform-y-0
+          className="  md:block relative transform transform-y-0
                transition-transform duration-5000 w-full  hover:translate-y-[-82%] cursor-pointer"
           src={carDealership}
           alt=""

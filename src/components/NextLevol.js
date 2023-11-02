@@ -6,36 +6,34 @@ import liveDemo from "../images/redirect.png";
 export default function NextLevol() {
   return (
     <li
-      className="flex-col h-max md:h-projectHeight bg-white w-full flex p-4 m-0 mt-40 rounded md:flex-row"
+      className="flex-col h-full  bg-white w-full flex p-4 m-0 my-16 rounded md:flex-row"
       id="next-levol-project"
     >
       <a
-        className="w-full md:w-1/2 h-projectHeight md:h-full overflow-hidden relative"
+        className="w-full md:w-1/2 h-projectHeight overflow-hidden relative"
         href="https://eloquent-paprenjak-c6768f.netlify.app/"
         target="blank"
       >
         <img
-          className=" hidden md:block relative transform transform-y-0
+          className="  md:block relative transform transform-y-0
                transition-transform duration-5000 w-full  hover:translate-y-[-82%] cursor-pointer"
           src={nextLevol}
           alt=""
         />
       </a>
-      <div className="text-greyBorder w-full md:w-1/2 pl-4 font-bold">
-        <h3 className="font-bold text-2xl text-darkGrey my-4 font-montserrat">
+      <div className=" w-full md:w-1/2 md:pl-4 font-bold text-center  md:text-start md:items-start">
+        <h3 className="font-bold md:text-2xl  my-4 font-montserrat">
           NextLevol (October 2023)
         </h3>
-        <h4 className="font-bold text-1xl text-darkGrey my-4">
-          Category - Front-end
-        </h4>{" "}
-        <p>
+        <h4 className="font-bold  text-darkGrey my-4">Category - Front-end</h4>{" "}
+        <p className="text-straight">
           NextLevol is an e-commerce frontend website designed for selling a
           wide range of accessories, including clothing, jewelry, and electronic
           devices. It provides a user interface for selecting products and
           validating account creation, utilizing the free online
           fakestoreapi.com API.
         </p>
-        <ul className="flex p-0">
+        <ul className="flex flex-wrap p-0">
           <li className="shadow-secondary p-2 font-bold">REACT</li>
           <li className="shadow-secondary p-2 font-bold">VANILLA CSS</li>
         </ul>

@@ -5,22 +5,22 @@ import code from "../images/coding.png";
 export default function JSLibrary() {
   return (
     <li
-      className="flex-col h-max md:h-projectHeight bg-white w-full flex p-4 m-0 mt-40 rounded md:flex-row"
+      className="flex-col h-full  bg-white w-full flex p-4 m-0 my-16 rounded md:flex-row"
       id="next-levol-project"
     >
       <a
-        className="w-full md:w-1/2 h-projectHeight md:h-full overflow-hidden relative"
+        className="w-full md:w-1/2 h-projectHeight  overflow-hidden relative"
         href="https://github.com/mphoshabalala/DR-ELECRO"
         target="blank"
       >
         <img
-          className=" hidden md:block relative transform transform-y-0
+          className=" md:block relative transform transform-y-0
                transition-transform duration-5000 w-full  hover:translate-y-[-82%] cursor-pointer"
           src={library}
           alt=""
         />
       </a>
-      <div className="text-greyBorder w-full md:w-1/2 pl-4 font-bold">
+      <div className="md:text-start text-center text-greyBorder w-full md:w-1/2 pl-4 font-bold">
         <h3 className="font-bold text-2xl text-darkGrey my-4 font-montserrat">
           Component Based Library (July 2023)
         </h3>
@@ -35,7 +35,7 @@ export default function JSLibrary() {
           documentation techniques that are widely recognized in many different
           integrated development environments (IDEs).
         </p>
-        <ul className="flex p-0">
+        <ul className="flex flex-wrap p-0">
           <li className="shadow-secondary p-2 font-bold">Vanilla JS</li>
         </ul>
         <ul className="items-center md:justify-start flex p-0">

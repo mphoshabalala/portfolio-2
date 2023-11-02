@@ -1,20 +1,22 @@
 import React from "react";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import ScrollToTop from "../components/ScrollToTop";
 
 export default function AboutMePage() {
   return (
     <>
-      <header className="bg-blue-900 z-10 font-bold w-full fixed top-0 left-0 h-24 flex items-center justify-center border-t-blue-300 border-t-8 text-blue-400">
-        <div className="flex items-center justify-between w-full px-32 ">
+      <ScrollToTop />
+      <header className="bg-blue-900 z-10 md:font-bold w-full fixed top-0 left-0 h-16 md:h-24 flex items-center justify-center border-t-blue-300 border-t-8 text-blue-400">
+        <div className="flex px-8 items-center justify-between w-full md:px-32 ">
           <ul className="flex">
-            <li className="p-4 cursor-pointer hover:text-white transition-all ">
+            <li className="    cursor-pointer hover:text-white transition-all ">
               <Link to="/">Home</Link>
             </li>
-            <li className="pt-4 cursor-pointer hover:text-white transition-all ">
+            <li className=" cursor-pointer hover:text-white transition-all ">
               <p>/</p>
             </li>
-            <li className="p-4 cursor-pointer text-white transition-all ">
+            <li className=" cursor-pointer text-white transition-all ">
               <Link to="/about-me">About-Me</Link>
             </li>
           </ul>
@@ -26,8 +28,8 @@ export default function AboutMePage() {
           </Link>
         </div>
       </header>
-      <div className=" p-32 bg-blue-100 ">
-        <div className="bg-darkBlue text-blue-200 p-8">
+      <div className=" p-8 pt-24  md:p-32 bg-blue-100 ">
+        <div className="bg-darkBlue text-blue-200 p-4 md:p-8 text-center md:text-start">
           <h1 className="font-bold font-montserrat text-3xl">About Me</h1>
           <p>
             Hello, I hope you are doing well. My name is Mpho Shabalala, and I
