@@ -6,10 +6,10 @@ import ecommerce from "../images/eCommerce.png";
 export default function Ecommerce() {
   return (
     <li
-      className="flex-col-reverse h-full  bg-white w-full flex p-4 m-0 my-16 rounded md:flex-row"
+      className="flex-col-reverse h-full  bg-white w-full flex p-2 m-0 my-16 rounded md:flex-row"
       id="ecommerce"
     >
-      <div className="w-full md:w-1/2 pr-4 font-bold text-center items-center  md:text-start md:items-start">
+      <div className="w-full md:w-1/2 md:pr-4 font-bold text-center items-center  md:text-start md:items-start">
         <h3 className="font-bold md:text-2xl  my-4 font-montserrat">
           E-Commerce API (September 2023)
         </h3>

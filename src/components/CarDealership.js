@@ -6,10 +6,10 @@ import code from "../images/coding.png";
 export default function CarDealership() {
   return (
     <li
-      className="flex-col-reverse h-max md:h-min bg-white w-full flex p-4 m-0 md:my-16 rounded md:flex-row"
+      className="flex-col-reverse h-max md:h-min bg-white w-full flex p-2 m-0 md:my-16 rounded md:flex-row"
       id="car-dealership"
     >
-      <div className=" w-full md:w-1/2 pr-4 font-bold text-center items-center  md:text-start md:items-start">
+      <div className=" w-full md:w-1/2 md:pr-4 font-bold text-center items-center  md:text-start md:items-start">
         <h3 className="font-bold md:text-2xl  my-4 font-montserrat">
           Car Dealership App - Best Dealers (October 2023)
         </h3>

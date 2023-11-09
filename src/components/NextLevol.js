@@ -6,7 +6,7 @@ import liveDemo from "../images/redirect.png";
 export default function NextLevol() {
   return (
     <li
-      className="flex-col h-full  bg-white w-full flex p-4 m-0 my-16 rounded md:flex-row"
+      className="flex-col h-full  bg-white w-full flex p-2 m-0 my-16 rounded md:flex-row"
       id="next-levol-project"
     >
       <a

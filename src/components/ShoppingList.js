@@ -6,10 +6,10 @@ import code from "../images/coding.png";
 export default function ShoppingList() {
   return (
     <li
-      className="flex-col-reverse h-full  bg-white w-full flex p-4 m-0 my-16 rounded md:flex-row"
+      className="flex-col-reverse h-full  bg-white w-full flex p-2 m-0 my-16 rounded md:flex-row"
       id="shoppingList"
     >
-      <div className=" w-full md:w-1/2 pr-4 font-bold text-center items-center  md:text-start md:items-start">
+      <div className=" w-full md:w-1/2 md:pr-4 font-bold text-center items-center  md:text-start md:items-start">
         <h3 className="font-bold text-2xl text-darkGrey my-4 font-montserrat">
           Shopping List (July 2023)
         </h3>

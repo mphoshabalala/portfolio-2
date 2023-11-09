@@ -11,7 +11,7 @@ import ShoppingList from "./ShoppingList";
 export default function Projects() {
   return (
     <div
-      className="bg-gradient-to-br from-darkBlue to-blue-300 w-full h-full px-8 md:px-32 "
+      className="bg-gradient-to-br from-darkBlue to-blue-300 w-full h-full px-2 md:px-32 "
       id="projects"
     >
       <div className="flex flex-col justify-center  py-8 ">

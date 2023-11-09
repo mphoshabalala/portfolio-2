@@ -5,17 +5,17 @@ import { Link } from "react-router-dom";
 export default function AboutMe() {
   return (
     <div
-      className="min-screen bg-blue-100 px-8 md:px-32 py-8 md:py-24"
+      className="min-screen  bg-blue-100 px-2 md:px-32 py-8 md:py-24"
       id="about"
     >
       <h1 className=" text-3xl  md:text-5xl mb-8 md:mb-24 font-semibold md:font-bold text-blue-600 font-montserrat">
         About Me
       </h1>
-      <div className="flex flex-col items-center md:items-start md:flex-row">
+      <div className="flex flex-col h-full  items-center md:items-start md:flex-row">
         <div className="w-full md:w-1/2 ">
           <img className="border-rounded" src={coder} alt="" />
         </div>
-        <div className="text-center mt-8 md:mt-0  w-full md:w-1/2 md:border-l-8 border-l-blue-600 md:ml-8 bg-blue-200 rounded-r-lg p-8">
+        <div className="text-center mt-8 md:mt-0  w-full md:w-1/2 md:border-l-8 border-l-blue-600 md:ml-8 bg-blue-200 rounded-r-lg pb-16 p-2">
           <h1 className="md:text-2xl md:font-extrabold text-blue-700 font-montserrat">
             A dedicated Full-stack Developer based in Johannesburg, South
             Africa.📍

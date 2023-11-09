@@ -5,7 +5,7 @@ import code from "../images/coding.png";
 export default function JSLibrary() {
   return (
     <li
-      className="flex-col h-full  bg-white w-full flex p-4 m-0 my-16 rounded md:flex-row"
+      className="flex-col h-full  bg-white w-full flex p-2 m-0 my-16 rounded md:flex-row"
       id="next-levol-project"
     >
       <a
@@ -20,7 +20,7 @@ export default function JSLibrary() {
           alt=""
         />
       </a>
-      <div className="md:text-start text-center text-greyBorder w-full md:w-1/2 pl-4 font-bold">
+      <div className="md:text-start text-center text-greyBorder w-full md:w-1/2 md:pl-4 font-bold">
         <h3 className="font-bold text-2xl text-darkGrey my-4 font-montserrat">
           Component Based Library (July 2023)
         </h3>

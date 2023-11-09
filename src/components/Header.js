@@ -6,7 +6,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   return (
     <header className="bg-blue-900 z-10 font-bold w-screen fixed top-0 left-0 h-16  flex items-center justify-center  border-t-blue-300 border-t-4  text-blue-400 md:border-t-8 md:h-24">
-      <div className="flex items-center justify-between w-full px-8 md:px-32 ">
+      <div className="flex items-center justify-between w-full px-2 md:px-32 ">
         <div>
           <ul className="hidden md:flex">
             <li className="p-4 cursor-pointer hover:text-white transition-all ">
